@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "betterores:dragonite"
+    },
+    "1": {
+      "item": "betterores:dragonite"
+    },
+    "2": {
+      "item": "betterores:dragonite"
+    },
+    "3": {
+      "item": "betterores:dragonite"
+    },
+    "4": {
+      "item": "betterores:dragonite"
+    },
+    "5": {
+      "item": "betterores:dragonite"
+    },
+    "6": {
+      "item": "betterores:dragonite"
+    },
+    "7": {
+      "item": "betterores:dragonite"
+    },
+    "8": {
+      "item": "betterores:dragonite"
+    }
+  },
+  "result": {
+    "item": "betterores:dragonite_block",
+    "count": 1
+  }
+}

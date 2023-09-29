@@ -1,0 +1,1517 @@
+{
+  "mod_elements": [
+    {
+      "name": "Enderite",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/enderite.json",
+          "src/main/java/net/mcreator/betterores/item/EnderiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/block/EnderiteOreBlock.java",
+          "src/main/resources/assets/betterores/blockstates/enderite_ore.json",
+          "src/main/resources/assets/betterores/models/item/enderite_ore.json",
+          "src/main/resources/data/betterores/forge/biome_modifier/enderite_ore_biome_modifier.json",
+          "src/main/resources/data/betterores/worldgen/placed_feature/enderite_ore.json",
+          "src/main/resources/assets/betterores/models/block/enderite_ore.json",
+          "src/main/java/net/mcreator/betterores/world/features/ores/EnderiteOreFeature.java",
+          "src/main/resources/data/betterores/worldgen/configured_feature/enderite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/block/enderite_block.json",
+          "src/main/resources/assets/betterores/blockstates/enderite_block.json",
+          "src/main/resources/assets/betterores/models/item/enderite_block.json",
+          "src/main/java/net/mcreator/betterores/block/EnderiteBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteOreSmelting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderitePickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/EnderitePickaxeItem.java",
+          "src/main/resources/assets/betterores/models/item/enderite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/enderite_axe.json",
+          "src/main/java/net/mcreator/betterores/item/EnderiteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/EnderiteSwordItem.java",
+          "src/main/resources/assets/betterores/models/item/enderite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/enderite_shovel.json",
+          "src/main/java/net/mcreator/betterores/item/EnderiteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/enderite_hoe.json",
+          "src/main/java/net/mcreator/betterores/item/EnderiteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BetterOres",
+      "type": "tab",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_ores",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EnderiteSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/EnderiteSwordItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSwordRightclicked",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/EnderiteSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FeatherIngot",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/feather_ingot.json",
+          "src/main/java/net/mcreator/betterores/item/FeatherIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FeatherOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/forge/biome_modifier/feather_ore_biome_modifier.json",
+          "src/main/resources/data/betterores/worldgen/configured_feature/feather_ore.json",
+          "src/main/resources/assets/betterores/models/block/feather_ore.json",
+          "src/main/resources/assets/betterores/blockstates/feather_ore.json",
+          "src/main/resources/assets/betterores/models/item/feather_ore.json",
+          "src/main/java/net/mcreator/betterores/block/FeatherOreBlock.java",
+          "src/main/resources/data/betterores/worldgen/placed_feature/feather_ore.json",
+          "src/main/java/net/mcreator/betterores/world/features/ores/FeatherOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "FeatherBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/block/FeatherBlockBlock.java",
+          "src/main/resources/assets/betterores/blockstates/feather_block.json",
+          "src/main/resources/assets/betterores/models/block/feather_block.json",
+          "src/main/resources/assets/betterores/models/item/feather_block.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherOreSmelting",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherPickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/FeatherPickaxeItem.java",
+          "src/main/resources/assets/betterores/models/item/feather_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherAxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/feather_axe.json",
+          "src/main/java/net/mcreator/betterores/item/FeatherAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FeatherSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/feather_sword.json",
+          "src/main/java/net/mcreator/betterores/item/FeatherSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FeatherShovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/FeatherShovelItem.java",
+          "src/main/resources/assets/betterores/models/item/feather_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/feather_hoe.json",
+          "src/main/java/net/mcreator/betterores/item/FeatherHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FeatherPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherAxeRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherSwordRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherShovelRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherHoeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feather_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rawfeather",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawfeather",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/RawfeatherItem.java",
+          "src/main/resources/assets/betterores/models/item/rawfeather.json"
+        ]
+      }
+    },
+    {
+      "name": "Feathersmelt",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feathersmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/feathersmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherSwordRightclicked",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/FeatherSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnpureEnderite",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpure_enderite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/UnpureEnderiteItem.java",
+          "src/main/resources/assets/betterores/models/item/unpure_enderite.json"
+        ]
+      }
+    },
+    {
+      "name": "Enderiterecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/enderiterecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherPickaxeToolInHandTick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_pickaxe_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/FeatherPickaxeToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragonite",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/dragonite.json",
+          "src/main/java/net/mcreator/betterores/item/DragoniteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/world/features/ores/DragoniteOreFeature.java",
+          "src/main/resources/assets/betterores/models/item/dragonite_ore.json",
+          "src/main/resources/assets/betterores/models/block/dragonite_ore.json",
+          "src/main/resources/data/betterores/worldgen/configured_feature/dragonite_ore.json",
+          "src/main/resources/data/betterores/forge/biome_modifier/dragonite_ore_biome_modifier.json",
+          "src/main/resources/assets/betterores/blockstates/dragonite_ore.json",
+          "src/main/java/net/mcreator/betterores/block/DragoniteOreBlock.java",
+          "src/main/resources/data/betterores/worldgen/placed_feature/dragonite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/block/dragonite_block.json",
+          "src/main/java/net/mcreator/betterores/block/DragoniteBlockBlock.java",
+          "src/main/resources/assets/betterores/blockstates/dragonite_block.json",
+          "src/main/resources/assets/betterores/models/item/dragonite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteOreSmelting",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonitePickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/DragonitePickaxeItem.java",
+          "src/main/resources/assets/betterores/models/item/dragonite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteAxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/dragonite_axe.json",
+          "src/main/java/net/mcreator/betterores/item/DragoniteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/dragonite_sword.json",
+          "src/main/java/net/mcreator/betterores/item/DragoniteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteShovel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/DragoniteShovelItem.java",
+          "src/main/resources/assets/betterores/models/item/dragonite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteHoe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterores/models/item/dragonite_hoe.json",
+          "src/main/java/net/mcreator/betterores/item/DragoniteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteAxeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteSwordRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteShovelRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteHoeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Unpuredragonite",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpuredragonite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/UnpuredragoniteItem.java",
+          "src/main/resources/assets/betterores/models/item/unpuredragonite.json"
+        ]
+      }
+    },
+    {
+      "name": "Dragoniter",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragoniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragoniter.json"
+        ]
+      }
+    },
+    {
+      "name": "DragoniteSwordRightclicked",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/DragoniteSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Overworldb",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworldb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/OverworldbProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherb",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/NetherbProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Endb",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/EndbProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dimension",
+      "type": "gui",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/world/inventory/DimensionMenu.java",
+          "src/main/java/net/mcreator/betterores/network/DimensionButtonMessage.java",
+          "src/main/java/net/mcreator/betterores/client/gui/DimensionScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "DimensionshifterRightclicked",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensionshifter_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/DimensionshifterRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dimensionshifter",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensionshifter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/DimensionshifterItem.java",
+          "src/main/resources/assets/betterores/models/item/dimensionshifter.json"
+        ]
+      }
+    },
+    {
+      "name": "Dimensionr",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensionr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dimensionr.json"
+        ]
+      }
+    },
+    {
+      "name": "Recipes",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/client/gui/RecipesScreen.java",
+          "src/main/java/net/mcreator/betterores/world/inventory/RecipesMenu.java",
+          "src/main/java/net/mcreator/betterores/network/RecipesButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipes2",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/client/gui/Recipes2Screen.java",
+          "src/main/java/net/mcreator/betterores/network/Recipes2ButtonMessage.java",
+          "src/main/java/net/mcreator/betterores/world/inventory/Recipes2Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "Next1",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/Next1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recipes3",
+      "type": "gui",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/network/Recipes3ButtonMessage.java",
+          "src/main/java/net/mcreator/betterores/world/inventory/Recipes3Menu.java",
+          "src/main/java/net/mcreator/betterores/client/gui/Recipes3Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "Next2",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/Next2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recipes4",
+      "type": "gui",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/client/gui/Recipes4Screen.java",
+          "src/main/java/net/mcreator/betterores/world/inventory/Recipes4Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "Next4",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/Next4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragonwings",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonwings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/recipes/dragonwings.json"
+        ]
+      }
+    },
+    {
+      "name": "Ende",
+      "type": "achievement",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ende",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/advancements/ende.json"
+        ]
+      }
+    },
+    {
+      "name": "Featherite",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "featherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/advancements/featherite.json"
+        ]
+      }
+    },
+    {
+      "name": "WhoSTheDragonNow",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "who_s_the_dragon_now",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterores/advancements/who_s_the_dragon_now.json"
+        ]
+      }
+    },
+    {
+      "name": "RecOnKeyPressed",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/RecOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rec",
+      "type": "keybind",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/network/RecMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Locations",
+      "type": "gui",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/client/gui/LocationsScreen.java",
+          "src/main/java/net/mcreator/betterores/world/inventory/LocationsMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "LocationsrOnKeyPressed",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locationsr_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/LocationsrOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Locationsr",
+      "type": "keybind",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locationsr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/network/LocationsrMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.betterores.enderite_pickaxe": "Enderite Pickaxe",
+      "item.betterores.dragonite_shovel": "Dragonite Shovel",
+      "block.betterores.feather_ore": "Feather Ore",
+      "block.betterores.enderite_block": "Block of Enderite",
+      "gui.betterores.recipes.button_next": "Next",
+      "key.betterores.locationsr": "Locations",
+      "item.betterores.dimensionshifter": "Dimension Shifter",
+      "gui.betterores.dimension.label_choose_a_dimension_to_teleport_t": "Choose a dimension to teleport",
+      "block.betterores.dragonite_block": "Block of Dragonite",
+      "gui.betterores.recipes_2.label_feather": "Feather",
+      "item.betterores.feather_sword": "Feather Sword",
+      "gui.betterores.dimension.button_end": "End",
+      "gui.betterores.locations.label_featherite_end_dimension": "Featherite: End Dimension",
+      "advancements.featherite.descr": "Obtain Featherite",
+      "item.betterores.dragonite_pickaxe": "Dragonite Pickaxe",
+      "gui.betterores.dimension.button_overworld": "OverWorld",
+      "gui.betterores.recipes_4.label_recipes": "Recipes",
+      "gui.betterores.locations.label_dragonite_nether_dimension": "Dragonite: Nether Dimension",
+      "advancements.ende.descr": "Obtain Enderite",
+      "key.betterores.rec": "Recipes",
+      "gui.betterores.recipes_2.button_next": "Next",
+      "gui.betterores.recipes_3.label_dragonite": "Dragonite",
+      "gui.betterores.recipes_3.button_next": "Next",
+      "item.betterores.enderite_sword": "Enderite Sword",
+      "gui.betterores.locations.label_enderite_end_dimension": "Enderite: End Dimension",
+      "gui.betterores.recipes_2.label_recipes": "Recipes",
+      "item.betterores.unpuredragonite": "Unpure Dragonite",
+      "gui.betterores.recipes_4.label_i": "I",
+      "item.betterores.enderite_axe": "Enderite Axe",
+      "gui.betterores.recipes_3.label_recipes": "Recipes",
+      "gui.betterores.recipes_4.label_m": "M",
+      "gui.betterores.recipes.label_enderite": "Enderite",
+      "gui.betterores.dimension.label_dimension_shifter": "Dimension Shifter",
+      "gui.betterores.recipes_4.label_x": "X",
+      "gui.betterores.recipes_4.label_empty": "",
+      "item.betterores.feather_axe": "Feather Axe",
+      "advancements.who_s_the_dragon_now.title": "Who\u0027s The Dragon Now?",
+      "block.betterores.feather_block": "Block of Feather",
+      "item.betterores.rawfeather": "Raw Feather",
+      "gui.betterores.dimension.button_nether": "Nether",
+      "item.betterores.dragonite_sword": "Dragonite Sword",
+      "gui.betterores.locations.label_where_to_find_the_new_ores": "Where to find the new ores",
+      "gui.betterores.locations.label_more_ores_coming_soon": "MORE ORES COMING SOON",
+      "advancements.who_s_the_dragon_now.descr": "Obtain Dragonite",
+      "item.betterores.dragonite_axe": "Dragonite Axe",
+      "item.betterores.enderite": "Enderite",
+      "item_group.betterores.better_ores": "Better Ores",
+      "item.betterores.feather_shovel": "Feather Shovel",
+      "block.betterores.dragonite_ore": "Dragonite Ore",
+      "advancements.featherite.title": "Feelin\u0027 Light!",
+      "item.betterores.feather_ingot": "Featherite Ingot",
+      "item.betterores.dragonite": "Dragonite",
+      "block.betterores.enderite_ore": "Enderite Ore",
+      "item.betterores.dragonite_hoe": "Dragonite Hoe",
+      "item.betterores.enderite_hoe": "Enderite Hoe",
+      "item.betterores.feather_hoe": "Feather Hoe",
+      "advancements.ende.title": "Is this what Endermen are made of?",
+      "gui.betterores.locations.label_locations": "Locations",
+      "item.betterores.enderite_shovel": "Enderite Shovel",
+      "item.betterores.unpure_enderite": "Unpure Enderite",
+      "gui.betterores.recipes.label_recipes": "Recipes",
+      "item.betterores.feather_pickaxe": "Feather Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "betterores",
+    "modName": "BetterOres",
+    "version": "1.0.0 BETA",
+    "description": "MORE COMING SOON",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/eCAHRcTYc9",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [
+      "It is STRONGLY suggested to use this mod with its texture pack. You can find it in the discord server."
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "https://discord.gg/eCAHRcTYc9",
+    "modElementsPackage": "net.mcreator.betterores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

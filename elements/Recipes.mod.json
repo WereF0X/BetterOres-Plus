@@ -1,0 +1,75 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipes",
+          "text": {
+            "fixedValue": "Recipes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_enderite",
+          "text": {
+            "fixedValue": "Enderite"
+          },
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sad.png",
+          "use1Xscale": true,
+          "x": 139,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "onClick": {
+            "name": "Next1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 251,
+          "y": 41
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

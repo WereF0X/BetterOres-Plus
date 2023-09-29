@@ -1,0 +1,75 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipes",
+          "text": {
+            "fixedValue": "Recipes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dragonite",
+          "text": {
+            "fixedValue": "Dragonite"
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fsdfsf.png",
+          "use1Xscale": true,
+          "x": 137,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "onClick": {
+            "name": "Next4"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 251,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

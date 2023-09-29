@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "betterores:block/feather_ore_block",
+    "particle": "betterores:block/feather_ore_block"
+  },
+  "render_type": "solid"
+}

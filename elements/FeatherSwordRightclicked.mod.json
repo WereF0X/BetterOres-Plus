@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"341\" y=\"269\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_add_potion_advanced\"><field name=\"potion\">INVISIBILITY</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">14400</field></block></value><value name=\"ambient\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><value name=\"particles\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"item_cooldown_for\"><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value><value name=\"ticks\"><block type=\"math_number\"><field name=\"NUM\">21600</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/tellraw @p {\"text\":\"Feather Sword is in cooldown for 18 minutes\",\"color\":\"gray\"}</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Better Ores",
+    "icon": {
+      "value": "Blocks.AMETHYST_CLUSTER"
+    },
+    "showSearch": true
+  }
+}

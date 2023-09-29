@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.847,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "betterores:dragonite_ore"
+  },
+  "result": "betterores:unpuredragonite"
+}

@@ -1,0 +1,115 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipes",
+          "text": {
+            "fixedValue": "Recipes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 198,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_m",
+          "text": {
+            "fixedValue": "M"
+          },
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "x": 201,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -11513776,
+            "falpha": 0.0
+          },
+          "x": 211,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i",
+          "text": {
+            "fixedValue": "I"
+          },
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "x": 210,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x",
+          "text": {
+            "fixedValue": "X"
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "x": 219,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "as.png",
+          "use1Xscale": true,
+          "x": 141,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w.png",
+          "use1Xscale": true,
+          "x": 138,
+          "y": 120
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

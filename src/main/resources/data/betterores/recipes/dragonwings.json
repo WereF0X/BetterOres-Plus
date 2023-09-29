@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "betterores:feather_ingot"
+    },
+    "3": {
+      "item": "betterores:dragonite"
+    },
+    "4": {
+      "item": "betterores:dragonite"
+    },
+    "5": {
+      "item": "betterores:dragonite"
+    },
+    "6": {
+      "item": "betterores:dragonite"
+    },
+    "8": {
+      "item": "betterores:dragonite"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

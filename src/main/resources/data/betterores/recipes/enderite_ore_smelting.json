@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.784,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "betterores:enderite_ore"
+  },
+  "result": "betterores:unpure_enderite"
+}

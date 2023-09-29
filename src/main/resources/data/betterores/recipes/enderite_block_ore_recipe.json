@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterores:enderite_block"
+    }
+  ],
+  "result": {
+    "item": "betterores:enderite",
+    "count": 9
+  }
+}

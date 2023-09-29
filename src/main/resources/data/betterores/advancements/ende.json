@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "betterores:enderite"
+    },
+    "title": {
+      "translate": "advancements.ende.title"
+    },
+    "description": {
+      "translate": "advancements.ende.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ende": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterores:enderite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:end/kill_dragon"
+}

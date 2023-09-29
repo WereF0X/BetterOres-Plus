@@ -1,0 +1,112 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_locations",
+          "text": {
+            "fixedValue": "Locations"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_where_to_find_the_new_ores",
+          "text": {
+            "fixedValue": "Where to find the new ores"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 148,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_enderite_end_dimension",
+          "text": {
+            "fixedValue": "Enderite: End Dimension"
+          },
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "x": 154,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_featherite_end_dimension",
+          "text": {
+            "fixedValue": "Featherite: End Dimension"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dragonite_nether_dimension",
+          "text": {
+            "fixedValue": "Dragonite: Nether Dimension"
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "x": 148,
+          "y": 128
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_more_ores_coming_soon",
+          "text": {
+            "fixedValue": "MORE ORES COMING SOON"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 181
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

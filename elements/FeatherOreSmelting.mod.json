@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.63,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:FeatherOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Rawfeather"
+    },
+    "name": "feather_ore_smelting",
+    "namespace": "mod"
+  }
+}

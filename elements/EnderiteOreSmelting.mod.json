@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.784,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:EnderiteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:UnpureEnderite"
+    },
+    "name": "enderite_ore_smelting",
+    "namespace": "mod"
+  }
+}

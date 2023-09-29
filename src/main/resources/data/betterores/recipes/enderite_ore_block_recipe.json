@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "betterores:enderite"
+    },
+    "1": {
+      "item": "betterores:enderite"
+    },
+    "2": {
+      "item": "betterores:enderite"
+    },
+    "3": {
+      "item": "betterores:enderite"
+    },
+    "4": {
+      "item": "betterores:enderite"
+    },
+    "5": {
+      "item": "betterores:enderite"
+    },
+    "6": {
+      "item": "betterores:enderite"
+    },
+    "7": {
+      "item": "betterores:enderite"
+    },
+    "8": {
+      "item": "betterores:enderite"
+    }
+  },
+  "result": {
+    "item": "betterores:enderite_block",
+    "count": 1
+  }
+}

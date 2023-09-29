@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="betterores"
+version="1.0.0"
+displayName="BetterOres"
+credits="https://discord.gg/eCAHRcTYc9"
+displayURL="https://discord.gg/eCAHRcTYc9"
+authors="The_WereF0X"
+description="MORE COMING SOON"
+
+[[dependencies.betterores]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.betterores]]
+    modId="It is STRONGLY suggested to use this mod with its texture pack. You can find it in the discord server."
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

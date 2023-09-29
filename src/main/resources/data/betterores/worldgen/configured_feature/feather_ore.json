@@ -1,0 +1,118 @@
+{
+  "type": "betterores:feather_ore",
+  "config": {
+    "size": 7,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:end_stone"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:stone"
+        },
+        "state": {
+          "Name": "betterores:feather_ore"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "betterores:enderite_block",
+    "betterores:enderite_ore",
+    "betterores:feather_ore",
+    "betterores:feather_block",
+    "betterores:dragonite_ore",
+    "betterores:dragonite_block"
+  ]
+}

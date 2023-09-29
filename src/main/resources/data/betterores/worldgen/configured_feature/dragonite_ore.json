@@ -1,0 +1,75 @@
+{
+  "type": "betterores:dragonite_ore",
+  "config": {
+    "size": 5,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        "state": {
+          "Name": "betterores:dragonite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_sand"
+          }
+        },
+        "state": {
+          "Name": "betterores:dragonite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_soil"
+          }
+        },
+        "state": {
+          "Name": "betterores:dragonite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:warped_nylium"
+          }
+        },
+        "state": {
+          "Name": "betterores:dragonite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crimson_nylium"
+          }
+        },
+        "state": {
+          "Name": "betterores:dragonite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:nether_wart_block"
+          }
+        },
+        "state": {
+          "Name": "betterores:dragonite_ore"
+        }
+      }
+    ]
+  }
+}

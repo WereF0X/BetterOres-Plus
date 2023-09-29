@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "enderite_sword",
+    "customModelName": "Normal",
+    "name": "Enderite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.6,
+    "enchantability": 16,
+    "damageVsEntity": 7.0,
+    "usageCount": 293,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Enderite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "EnderiteSwordRightclicked"
+    },
+    "onCrafted": {
+      "name": "EnderiteSwordItemIsCraftedsmelted"
+    }
+  }
+}
